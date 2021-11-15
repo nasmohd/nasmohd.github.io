@@ -114,7 +114,7 @@ ul li{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -149,7 +149,10 @@ ul li{
 .content{
   position: relative;
   z-index: 0
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+
 
 @media(min-width:10px) and (max-width: 567px){
   #nav_btn{
