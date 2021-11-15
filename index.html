@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title> Nassor M. </title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css"> 
+
+        <!-- Font awesome -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+
+    <header id="header_edit">
+        <nav class="navbar navbar-expand-lg py-4" style="background-color: #306FA0; color: white;" id="navbar">
+
+          <a class="navbar-brand text-white ml-lg-5 pl-lg-3" href="#" id="brand"> Nassor M. Portfolio </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" id="nav_btn"></i>
+            <!-- <span class="navbar-toggler-icon" style="background-color:white;"></span> -->
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-5">
+              <li class="nav-item active">
+                <a class="nav-link" href="#" id="header_txt">About me <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#technical_skills" id="header_txt">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#education_card" id="header_txt">Educational Background</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#experience" id="header_txt">Experience</a>
+              </li>
+              
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#" id="header_txt">Contacts</a>
+              </li> -->
+            </ul>
+
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+        </nav>
+
+    </header>
+
+    
+<body class="content" id="content">
+    <div class="sidebar_stick" style="height: 100vh; width: 3rem; background-color: #262626; margin-top: 0rem; position: fixed; overflow: hidden; visibility: hidden;" id="sidebar_stick">
+        <div style="padding-top: 10vh;">
+
+            <!-- <p> Expand Btn </p> -->
+            
+                <a class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white; font-size:1.3rem; margin-top: 1.8rem;" id="sidebar_toggle" onclick="sidebar_toggle_on()">
+                <i class="fa fa-bars py-2 px-2"></i>
+                </a>
+
+                <!-- <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                <i class="fa fa-bars py-2 px-2"></i>
+                </button> -->
+
+            <a class="nav-link" href="#" id="#"> <span title="About me"><i class="fa fa-user"></i></span></a>
+
+            <a class="nav-link" href="#technical_skills" id=""><span title="Technical Skills"><i class="fa fa-laptop"></i></span> </a>
+
+            <a class="nav-link" href="#education_card" id=""><span title="Educational Background"><i class="fa fa-graduation-cap"> </i></span> </a>
+
+            <a class="nav-link" href="#experience" id=""><span title="Work Experience"><i class="fa fa-pencil"></i></span></a>
+
+        </div>
+
+    </div>
+
+    <div class="sidebar_stick2" style="height: 100vh; width: 11rem; background-color: #262626; margin-top: 12vh; position: fixed; overflow: hidden; z-index: 2; " id="sidebar_stick2">
+        <div style="padding-top: 1vh;">
+
+            <!-- <p> Expand Btn </p> -->
+            
+                <a class="navbar-toggler ml-2" type="button" style="color: white; font-size:1.3rem; padding-left: 70%;" id="sidebar_toggle" onclick="sidebar_toggle_off()">
+                <i class="fa fa-bars py-2 px-2"></i>
+                </a>
+
+                <!-- <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                <i class="fa fa-bars py-2 px-2"></i>
+                </button> -->
+
+            <a class="nav-link" href="#" id="#"> <span title="About me"><i class="fa fa-user"></i><span class="ml-2" style="padding-left: 6px;"> About me </span> </span></a>
+
+            <a class="nav-link" href="#technical_skills" id=""><span title="Technical Skills"><i class="fa fa-laptop"></i> <span class="ml-2">Technical skills</span> </span> </a>
+
+            <a class="nav-link" href="#education_card" id=""><span title="Educational Background"><i class="fa fa-graduation-cap"> </i> <span class="ml-2">Educational Bgnd</span></span> </a>
+
+            <a class="nav-link" href="#experience" id=""><span title="Work Experience"><i class="fa fa-pencil"></i> <span class="ml-2" style="padding-left: 6px;"> Work Experience </span> </a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        function sidebar_toggle_on(){
+            var sidebar_long = document.getElementById ("sidebar_stick2");
+            sidebar_long.style.visibility = 'visible';
+            console.log(sidebar_long);
+
+            var sidebar_short = document.getElementById ("sidebar_stick");
+            sidebar_short.style.visibility = 'hidden';
+        }
+
+        function sidebar_toggle_off(){
+            var sidebar_long = document.getElementById ("sidebar_stick2");
+            sidebar_long.style.visibility = "hidden";
+            console.log(sidebar_long);
+
+            var sidebar_short = document.getElementById ("sidebar_stick");
+            sidebar_short.style.visibility = "visible";
+        }
+
+
+    </script>
+
+
+    <div class="body_content">
+
+    <div class="container mt-5 pt-5">
+        <div class="row" align="center">
+            
+            <div class="col-lg-5 pt-lg-5 mt-5 col-12"> 
+                <img src="img/nas1.jpg" class="rounded-circle img-fluid mb-3" alt="..." style="" id="profile_pic"> 
+            </div>
+
+            <div class="col-lg-5 col-12 mt-lg-5 mb-lg-5 pb-lg-5" id="about_me">
+
+                <div class="row text-left">
+                    <!-- <div class="col-12 pt-2 mb-2 cv_part">
+                        <p class=""> PERSONAL INFORMATION </p>
+                    </div> -->
+                    <div class="col-12 mt-lg-5 pt-lg-5">
+                        <h1 class="name_intro"> Nassor Mohamed Suleiman </h1>
+
+                        <h3 class="name_intro"> Computer Engineer </h3>
+                    </div>
+
+                    <div class="col-12">
+                        <ul class="contact_me">
+                            <li> <i class="fa fa-envelope-o"></i> nasmohd22@gmail.com </li>
+                            <li> <i class="fa fa-phone"></i> +255627979633 </li>
+                            <li> <i class="fa fa-map-marker ml-1"></i> Magomeni, Dar es Salaam </li>
+                            <li>
+                                <a href="https://github.com/nasmohd" style="color: inherit; text-decoration: inherit;" target="_blank"><i class="fa fa-github"></i> nasmohd </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-12" id="technical_skills">
+                <h1 class="mb-lg-4" id="tech_text"> <i class="fa fa-desktop mr-3"></i>TECHNICAL SKILLS </h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3> WEB DESIGN & PROGRAMMING </h3>
+                        <div class="col-12 justify-content-left">
+                            <ul class="contact_me text-left">
+                                <li> <i class="fa fa-check-circle"></i> Web development using PHP for backend development </li>
+                                 <li> <i class="fa fa-check-circle"></i> JavaScript and jQuery for content interactivity. </li>
+                                <li> <i class="fa fa-check-circle"></i> Database development using MySQL. </li>
+                                <li> <i class="fa fa-check-circle"></i> Android mobile application development basics in Android Studio using Java. </li>
+                                <li> <i class="fa fa-check-circle"></i> Basic knowledge in Machine Learning and Artificial Intelligence concepts. </li>
+                                <li> <i class="fa fa-check-circle"></i> Knowledgeable in programming languages such as C, C++, and Python.. </li>
+                                <li> <i class="fa fa-check-circle"></i> Version control using Git. </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 pl-lg-2">
+                        <h3 id="tech_text"> NETWORKING & COMPUTER MAINTENANCE </h3>
+                        <div class="col-12 justify-content-left">
+                            <ul class="contact_me text-left">
+                                <li> <i class="fa fa-check-circle"></i> Software and Hardware installation, troubleshooting and maintenance. </li>
+                                 <li> <i class="fa fa-check-circle"></i> Network configuration and troubleshooting. </li>
+                                <li> <i class="fa fa-check-circle"></i> User support in using and adjusting to systems and equipment </li>
+                                <li> <i class="fa fa-check-circle"></i> Technical support and fast response to equipment malfunction and faults. </li>
+                                <li> <i class="fa fa-check-circle"></i> Organizational skills in managing tasks. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12" id="background_ed">
+                <div class="row">
+                    <div class="col-lg-6" id="education_card">
+                        <h3 id="tech_text"> EDUCATIONAL BACKGROUND </h3>
+                        <div class="col-12 justify-content-left" id="card_style">
+                            <div class="card">
+                              <div class="card-header">
+                                Ordinary Diploma in Computer Engineering
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title"> 2017 – 2020 </h5>
+                                <p class="card-text">Dar es Salaam Institute of Technology (DIT)</p>
+                                
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 justify-content-left mt-lg-3" id="card_style">
+                            <div class="card">
+                              <div class="card-header">
+                                Advanced Certification of Secondary Education Examination (ACSEE)
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title"> 2015 – 2017 </h5>
+                                <p class="card-text">Shaaban Robert Secondary School</p>
+                                
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 justify-content-left mt-lg-3" id="card_style">
+                            <div class="card">
+                              <div class="card-header">
+                                Certificate of Secondary Education Examination (CSEE)
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title"> 2011 - 2014 </h5>
+                                <p class="card-text">Shaaban Robert Secondary School</p>
+                                
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 justify-content-left mt-lg-3" id="card_style">
+                            <div class="card">
+                              
+                              <div class="card-body">
+                                <h5 class="card-title"> 2006 - 2011 </h5>
+                                <p class="card-text">Diamond Primary School</p>
+                                
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 pl-lg-2" id="experience">
+                        <h3 id="tech_text"> WORK EXPERIENCE </h3>
+                        <div class="col-12 justify-content-left mt-lg-3" id="card_style">
+                            <div class="card">
+                              <div class="card-header">
+                                Tanzania Telecommunications Company Limited (TTCL)
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title"> August 2018 – November 2018 </h5>
+                                <p class="card-text">Trainee</p>
+                                <ul>
+                                    <li>Hardware and software installation, maintenance and troubleshooting.</li>
+                                    <li>Network configuration and troubleshooting.</li>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="card mt-lg-3">
+                              <div class="card-header">
+                                Area24 Technologies Group
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title"> August 2019 – November 2019 </h5>
+                                <p class="card-text">Trainee</p>
+                                <ul>
+                                    <li>Hardware and software installation, maintenance and troubleshooting.</li>
+                                    <li>Network configuration and troubleshooting.</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <footer class="mt-5" style="background-color: #306FA0; color:white;" id="header_txt">
+        <div class="py-2 text-center">
+            <p class="pt-3"> <span id="date_now"> </span> | Created by Nassor M.  </p>
+        </div>
+
+    </footer>
+
+    
+
+    <script type="text/javascript">
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+        var sidebar = document.getElementById("sidebar_stick");
+
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        var date = new Date();
+        var date_today = date.getFullYear();
+
+        var el = document.getElementById("date_now");
+        // console.log (date_today);
+        el.innerHTML = date_today;
+
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+    
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/flipclock/timer.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+</body>
+
+
+  
+   
+</html>
