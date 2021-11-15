@@ -179,7 +179,7 @@ ul li{
     color:#ff9900;
   }
 
-  #sidebar_toggle:hover{
+  .sidebar_stick #sidebar_toggle:hover{
     color:#ff9900;
   }
 
@@ -254,10 +254,12 @@ ul li{
   }
 
   .sidebar_stick2{
+    display: none;
     visibility: hidden;
   }
 
   .sidebar_stick{
+    display:none;
     visibility: hidden;
   }
 

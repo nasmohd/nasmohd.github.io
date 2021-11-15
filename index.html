@@ -26,7 +26,7 @@
     </head>
 
     <header id="header_edit">
-        <nav class="navbar navbar-expand-lg py-4" style="background-color: #306FA0; color: white;" id="navbar">
+        <nav class="navbar navbar-expand-lg" style="background-color: #306FA0; color: white; z-index: 3; height: 20vh;" id="navbar">
 
           <a class="navbar-brand text-white ml-lg-5 pl-lg-3" href="#" id="brand"> Nassor M. Portfolio </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,18 +68,11 @@
 
     
 <body class="content" id="content">
-    <div class="sidebar_stick" style="height: 100vh; width: 3rem; background-color: #262626; margin-top: 0rem; position: fixed; overflow: hidden; visibility: hidden;" id="sidebar_stick">
+    <div class="sidebar_stick" style="height: 100vh; width: 3rem; background-color: #262626; margin-top: 0rem; position: fixed; overflow: hidden;" id="sidebar_stick">
         <div style="padding-top: 10vh;">
-
-            <!-- <p> Expand Btn </p> -->
-            
                 <a class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white; font-size:1.3rem; margin-top: 1.8rem;" id="sidebar_toggle" onclick="sidebar_toggle_on()">
                 <i class="fa fa-bars py-2 px-2"></i>
                 </a>
-
-                <!-- <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
-                <i class="fa fa-bars py-2 px-2"></i>
-                </button> -->
 
             <a class="nav-link" href="#" id="#"> <span title="About me"><i class="fa fa-user"></i></span></a>
 
@@ -93,8 +86,8 @@
 
     </div>
 
-    <div class="sidebar_stick2" style="height: 100vh; width: 11rem; background-color: #262626; margin-top: 12vh; position: fixed; overflow: hidden; z-index: 2; " id="sidebar_stick2">
-        <div style="padding-top: 1vh;">
+    <div class="sidebar_stick2" style="height: 100vh; width: 11rem; background-color: #262626; margin-top: 0rem; position: fixed; overflow: hidden; visibility: hidden;" id="sidebar_stick2">
+        <div style="padding-top: 13vh;">
 
             <!-- <p> Expand Btn </p> -->
             
@@ -125,6 +118,9 @@
 
             var sidebar_short = document.getElementById ("sidebar_stick");
             sidebar_short.style.visibility = 'hidden';
+
+            var content = document.getElementById ("body_content");
+            content.style.marginLeft = '12rem';
         }
 
         function sidebar_toggle_off(){
@@ -134,13 +130,16 @@
 
             var sidebar_short = document.getElementById ("sidebar_stick");
             sidebar_short.style.visibility = "visible";
+
+            var content = document.getElementById ("body_content");
+            content.style.marginLeft = '4rem';
         }
 
 
     </script>
 
 
-    <div class="body_content">
+    <div class="body_content" style="z-index: 0; position: static;" id="body_content">
 
     <div class="container mt-5 pt-5">
         <div class="row" align="center">
