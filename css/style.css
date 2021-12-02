@@ -250,6 +250,10 @@ ul li{
   .sidebar_stick{
     visibility: hidden;
   }
+
+  #brand{
+    background-color: red;
+  }
 }
 @media(min-width:992px){
   .sidebar_stick{
